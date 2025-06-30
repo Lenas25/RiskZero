@@ -132,9 +132,12 @@ El proyecto está organizado en los siguientes directorios principales:
 ---
 
 ## Capturas de Aplicativo Funcional
+![image](https://github.com/user-attachments/assets/8646643f-cb27-4dbf-85c4-7de86ebda8d9)
 ![image](https://github.com/user-attachments/assets/084faab9-2dd6-4c3e-be8e-298816d5df84)
 ![image](https://github.com/user-attachments/assets/5a94336f-92bb-413d-9687-d0d1bdec3d95)
 ![image](https://github.com/user-attachments/assets/f48b2837-6c5b-4091-8393-679bc0e94197)
+![image](https://github.com/user-attachments/assets/831073be-cf55-4ab2-b591-5de3a813f485)
+
 
 
 
