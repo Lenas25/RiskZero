@@ -1,0 +1,6 @@
+@RiskZero_HostAddress = http://localhost:5200
+
+GET {{RiskZero_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
