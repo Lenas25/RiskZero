@@ -71,7 +71,7 @@ El proyecto está organizado en los siguientes directorios principales:
     ```
 
 3.  **Configura `appsettings.json`:**
-    Si la API se usará desde otra aplicación (como un frontend en un dominio diferente), es crucial habilitar los CORS (Cross-Origin Resource Sharing).Para configurarlo, simplemente modifica la sección "CorsSettings" en tu archivo de configuración (normalmente appsettings.json). En la lista "AllowedOrigins", agrega las URLs de los dominios desde los cuales se conectarán a tu API.
+    Si la API se usará desde otra aplicación (como un frontend en un dominio diferente), es crucial habilitar los CORS (Cross-Origin Resource Sharing).Para configurarlo, simplemente modifica la sección "CorsSettings" en el archivo de configuración. En la lista "AllowedOrigins", agrega las URLs de los dominios desde los cuales se conectarán a tu API.
     ```json
     {
         ...
