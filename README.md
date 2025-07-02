@@ -74,11 +74,19 @@ El proyecto está organizado en los siguientes directorios principales:
     Si la API se usará desde otra aplicación (como un frontend en un dominio diferente), es crucial habilitar los CORS (Cross-Origin Resource Sharing).Para configurarlo, simplemente modifica la sección "CorsSettings" en el archivo de configuración. En la lista "AllowedOrigins", agrega las URLs de los dominios desde los cuales se conectarán a tu API.
     ```json
     {
-        ...
         "CorsSettings": {
             "AllowedOrigins": [
                 "http://localhost:XXXX",
             ]
+        }
+    }
+    ```
+4.  **Configura `appsettings.json "ConnectionStrings"` :**
+    Para que la aplicación se conecte correctamente a la base de datos SQL Server, es necesario configurar la cadena de conexión en el archivo `appsettings.json`.
+    ```json
+    {
+        "ConnectionStrings": {
+            "DefaultConnection": "Server=localhost;Database=supplier_management_db;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
         }
     }
     ```
